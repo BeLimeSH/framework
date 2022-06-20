@@ -37,5 +37,6 @@ searchResultIndication=true
 searchResultIndicationColor=64,64,64
 searchResultTextStyle=BOX
 secondaryIPColor=36,36,36
+spellingEnabled=false
 spellingIndicationColor=253,170,211
 writeOccurrenceIndicationColor=57,57,4
