@@ -99,9 +99,9 @@
 		                    <fieldset id="id-pw-area">
 		        
 		                        <section>
-		                            <input type="text" name="inputEmail" placeholder="아이디(이메일)" value="${cookie.saveId.value}">     
+		                            <input type="text" name="memberEmail" placeholder="아이디(이메일)" value="${cookie.saveId.value}">     
                                                                                                  <%-- 현재 페이지 쿠키 중 "saveId"의 내용을 출력--%>                   
-		                            <input type="password" name="inputPw" placeholder="비밀번호">
+		                            <input type="password" name="memberPw" placeholder="비밀번호">
 		                        </section>
 		        
 		                        <section>
