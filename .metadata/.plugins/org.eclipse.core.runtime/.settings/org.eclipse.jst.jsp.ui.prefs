@@ -1,8 +1,11 @@
-SCRIPT_AREA_BORDER=\#fbd153 | null | false | false | false | false
+SCRIPT_AREA_BORDER=\#FFFFFF | null | null | null | null | null
+commentBorder=\#73879B | null | null | null | null | null
+commentText=\#73879B | null | null | null | null | null
 eclipse.preferences.version=1
-overriddenByCSS=,SCRIPT_AREA_BORDER,tagAttributeEquals,tagAttributeName,tagAttributeValue,tagBorder,tagName,
-tagAttributeEquals=\#45ab0e | null | false | false | false | false
-tagAttributeName=\#a7ec21 | null | false | false | false | false
-tagAttributeValue=\#13a87d | null | false | true | false | false
-tagBorder=\#808080 | null | false | false | false | false
+jsp_content=\#E2E2E2 | null | null | null | null | null
+overriddenByCSS=,SCRIPT_AREA_BORDER,tagAttributeEquals,tagAttributeName,tagAttributeValue,tagBorder,tagName,commentBorder,commentText,jsp_content,
+tagAttributeEquals=\#E2E2E2 | null | null | null | null | null
+tagAttributeName=\#8DCBE2 | null | null | null | null | null
+tagAttributeValue=\#CC9393 | null | null | null | null | null
+tagBorder=\#DFBE95 | null | null | null | null | null
 tagName=\#03a8d8 | null | true | false | false | false
