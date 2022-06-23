@@ -21,6 +21,7 @@
 	 -->
 	
 	<!-- Enables the Spring MVC @Controller programming model -->
+	<!-- @RequestMapping / @GetMapping / @PostMapping / @ExceptionErrorHandler 인식 -->
 	<annotation-driven />
 
 	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
@@ -41,6 +42,8 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<!-- 지정된 패키지 이하에 존재하는
+		@Component, @Controller, @Service, @Repository를 찾아서 bean으로 생성하는 역할 -->
 	<context:component-scan base-package="edu.kh.comm" />
 	
 	
