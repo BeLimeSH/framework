@@ -39,6 +39,26 @@ function infoValidate(){
 }
 
 
+// 다음 주소찾기 API
+function execDaumPostcode() {
+    new daum.Postcode({
+        oncomplete: function(data) {
+            // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+            // 도로명 주소의 노출 규칙에 따라 주소를 표시한다.
+            // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+            var roadAddr = data.roadAddress; // 도로명 주소 변수
+            
+            // 우편번호와 주소 정보를 해당 필드에 넣는다.
+            document.getElementById('postCode').value = data.zonecode;
+            document.getElementById("address").value = roadAddr;
+            
+        }
+    }).open();
+}
+
+
+
 // 경고 출력 + 포커스 + false 반환  함수
 function printAlert(el, message){ // 매개변수 el은 요소
     alert(message);
@@ -192,9 +212,6 @@ if(inputImage != null){ // inputImage 요소가 화면에 존재 할 때
 }
 
 
-
-
-
 // 이미지 선택 확인
 function profileValidate(){
     const inputImage = document.getElementById("input-image");
@@ -214,25 +231,27 @@ function profileValidate(){
 }
 
 
+if( document.getElementById("delete-image") != null ){
 
+    // 프로필 이미지 옆 x버튼 클릭 시
+    document.getElementById("delete-image").addEventListener("click", function(){
+        // 0 : 안눌러짐
+        // 1 : 눌러짐
+    
+        const del = document.getElementById("delete");
+    
+        if(del.value == 0){ // 눌러지지 않은 경우
+    
+            // 1) 프로필 이미지를 기본 이미지로 변경
+            document.getElementById("profile-image").setAttribute("src", contextPath + "/resources/images/user.png");                     
+    
+            // 2) input type="file"에 저장된 값(value)에 "" 대입 
+            document.getElementById("input-image").value = "";
+    
+            del.value = 1; // 눌러진걸로 인식
+        }
+    
+    });
+}
 
-// 프로필 이미지 옆 x버튼 클릭 시
-document.getElementById("delete-image").addEventListener("click", function(){
-    // 0 : 안눌러짐
-    // 1 : 눌러짐
-
-    const del = document.getElementById("delete");
-
-    if(del.value == 0){ // 눌러지지 않은 경우
-
-        // 1) 프로필 이미지를 기본 이미지로 변경
-        document.getElementById("profile-image").setAttribute("src", contextPath + "/resources/images/user.png");                     
-
-        // 2) input type="file"에 저장된 값(value)에 "" 대입 
-        document.getElementById("input-image").value = "";
-
-        del.value = 1; // 눌러진걸로 인식
-    }
-
-});
 
