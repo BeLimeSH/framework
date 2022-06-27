@@ -1,6 +1,8 @@
 package edu.kh.comm.common.filter;
 
 import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
@@ -20,7 +22,10 @@ import org.slf4j.LoggerFactory;
  */
 @WebFilter(filterName = "initFilter", urlPatterns = "/*")
 public class InitFilter extends HttpFilter implements Filter {
-       
+    
+//	@Autowired
+//	private BoardService boardService;
+	
 	//Logger / Debug Mode 사용
 	
 	//Logger 객체 생성 (해당 클래스에 대한)
@@ -44,16 +49,15 @@ public class InitFilter extends HttpFilter implements Filter {
 
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		
-	      // application 내장 객체 얻어오기
-	      ServletContext application = request.getServletContext();
+	    // application 내장 객체 얻어오기
+	    ServletContext application = request.getServletContext();
 	      
-	      // 최상위 주소 얻어오기
-	      String contextPath =  ( (HttpServletRequest)request ).getContextPath();
-	                           // 다운캐스팅
-	      // 세팅
-	      application.setAttribute("contextPath", contextPath);
-		
-		
+	    // 최상위 주소 얻어오기
+	    String contextPath =  ( (HttpServletRequest)request ).getContextPath();
+	                         // 다운캐스팅
+	    // 세팅
+	    application.setAttribute("contextPath", contextPath);
+	    
 		chain.doFilter(request, response);
 	}
 

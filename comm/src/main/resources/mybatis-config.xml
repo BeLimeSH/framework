@@ -18,7 +18,12 @@
 	
 	<!-- 별칭 작성 부분 -->
 	<typeAliases>
-		<typeAlias type="edu.kh.comm.member.model.vo.Member" alias="member" />
+		<typeAlias type="edu.kh.comm.member.model.vo.Member" 	 alias="member" />
+		
+		<typeAlias type="edu.kh.comm.board.model.vo.Board" 		 alias="board" />
+		<typeAlias type="edu.kh.comm.board.model.vo.BoardDetail" alias="detail" />
+		<typeAlias type="edu.kh.comm.board.model.vo.BoardImage"  alias="boardImage" />
+		<typeAlias type="edu.kh.comm.board.model.vo.BoardType"  alias="boardType" />
 	</typeAliases>
 	
 	<!-- SQL이 작성되는 mapper 파일 위치를 등록 -->
@@ -27,6 +32,7 @@
 			경로를 작성하는 기준(시작지점)은 src/main/resources 폴더 -->
 		<mapper resource="/mappers/member-mapper.xml" />
 		<mapper resource="/mappers/myPage-mapper.xml" />
+		<mapper resource="/mappers/board-mapper.xml" />
 		
 	</mappers>
 
