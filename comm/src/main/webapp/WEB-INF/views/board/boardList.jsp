@@ -2,7 +2,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 
 <!-- map에 저장된 값을 각각 변수에 저장 -->
-<c:set var="boardName" value="${map.boardName}" />
+<c:forEach var="boardType" items="${boardTypeList}">
+    <c:if test="${boardCode == boardType.boardCode}">
+        <c:set var="boardName" value="${boardType.boardName}" />
+    </c:if>
+</c:forEach>
+
+<%-- <c:set var="boardName" value="${map.boardName}" /> --%>
 <c:set var="pagination" value="${map.pagination}" />
 <c:set var="boardList" value="${map.boardList}" />
 
@@ -74,7 +80,8 @@
                                                 <img class="list-thumbnail" src="${contextPath}${board.thumbnail}">
                                             </c:if>  
 
-                                            <a href="detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type}${sURL}">${board.boardTitle}</a>                           
+                                            <a href="../detail/${boardCode}/${board.boardNo}?cp=${pagination.currentPage}${sURL}">${board.boardTitle}</a>
+                                            <%-- detail?no=${board.boardNo}&cp=${pagination.currentPage}&type=${param.type} --%>
                                         </td>
                                         <td>${board.memberNickname}</td>
                                         <td>${board.createDate}</td>
@@ -102,8 +109,8 @@
             <div class="pagination-area">
 
                 <!-- 페이지네이션 a태그에 사용될 공통 주소를 저장한 변수 선언 -->
-                <c:set var="url" value="list?type=${param.type}&cp="/>
-
+                <c:set var="url" value="${boardCode}?cp="/>
+                                   <%-- list?type=${param.type}&cp= --%>
 
                 <ul class="pagination">
                     <!-- 첫 페이지로 이동 -->
@@ -146,7 +153,7 @@
                 <select name="key" id="search-key">
                     <option value="t">제목</option>
                   op  <option value="c">내용</option>
-                    <option value="tc">제목+내용</tion>
+                    <option value="tc">제목+내용</option>
                     <option value="w">작성자</option>
                 </select>
 

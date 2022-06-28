@@ -1,5 +1,7 @@
 package edu.kh.comm.member.controller;
 
+import java.util.List;
+
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,6 +25,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import com.google.gson.Gson;
 
 import edu.kh.comm.member.model.service.MemberService;
 import edu.kh.comm.member.model.service.MemberServiceImpl;
@@ -308,6 +312,31 @@ public class MemberController {
 		ra.addFlashAttribute("message", message);
 		
 		return path;
+	}
+	
+	//회원 1명 정보 조회(ajax)
+	@ResponseBody //반환되는 값이 forward/redirect 경로가 아닌 값 자체임을 인식(ajax시 사용)
+	@PostMapping("/selectOne")
+	public String selectOne(String memberEmail) {
+		
+		Member mem = service.selectOne(memberEmail);
+		
+		// JSON : 자바스크립트 객체 표기법으로 작성된 문자열(String)
+		
+		// GSON 라이브러리 : JSON을 쉽게 다루기 위한 Google에서 제공하는 라이브러리
+		
+//		new Gson().toJson(mem) : 객체를 JSON 형태로 변환
+		return new Gson().toJson(mem);
+	}
+	
+	// 회원 목록 조회(ajax)
+	@ResponseBody
+	@GetMapping("/selectAll")
+	public String selectAll() {
+		
+		List<Member> list = service.selectAll();
+		
+		return new Gson().toJson(list);
 	}
 	
 	
