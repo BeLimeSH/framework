@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import edu.kh.comm.board.model.vo.Board;
+import edu.kh.comm.board.model.vo.BoardDetail;
 import edu.kh.comm.board.model.vo.BoardType;
 import edu.kh.comm.board.model.vo.Pagination;
 
@@ -53,6 +54,19 @@ public class BoardDAO {
 		RowBounds rowBounds = new RowBounds(offset, pagination.getLimit());
 		
 		return sqlSession.selectList("boardMapper.selectBoardList", boardCode, rowBounds);
+	}
+
+	public BoardDetail selectBoardDetail(int boardNo) {
+		return sqlSession.selectOne("boardMapper.selectBoardDetail", boardNo);
+	}
+
+	/**
+	 * 조회 수 증가 DAO
+	 * @param boardNo
+	 * @return result
+	 */
+	public int updateReadCount(int boardNo) {
+		return sqlSession.update("boardMapper.updateReadCount", boardNo);
 	}
 
 }

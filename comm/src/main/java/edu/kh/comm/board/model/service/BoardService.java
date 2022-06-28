@@ -3,6 +3,7 @@ package edu.kh.comm.board.model.service;
 import java.util.List;
 import java.util.Map;
 
+import edu.kh.comm.board.model.vo.BoardDetail;
 import edu.kh.comm.board.model.vo.BoardType;
 
 public interface BoardService {
@@ -20,5 +21,19 @@ public interface BoardService {
 	 * @return map
 	 */
 	Map<String, Object> selectBoardList(int cp, int boardCode);
+
+	/**
+	 * 게시글 상세조회
+	 * @param boardNo
+	 * @return
+	 */
+	BoardDetail selectboardDetail(int boardNo);
+
+	/**
+	 * 조회수 증가
+	 * @param boardNo
+	 * @return result
+	 */
+	int updateReadCount(int boardNo);
 
 }
