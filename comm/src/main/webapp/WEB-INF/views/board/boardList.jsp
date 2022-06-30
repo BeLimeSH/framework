@@ -99,8 +99,9 @@
             <div class="btn-area">
 
                 <c:if test="${!empty loginMember}">
-                    <!-- /community/board/write -->
-                    <button id="insertBtn" onclick="location.href='write?mode=insert&type=${param.type}&cp=${param.cp}'">글쓰기</button>                     
+                    <!-- /comm/board/write/3?mode=insert&cp=1 -->
+                    <%-- /comm/board/list/3 --%>
+                    <button id="insertBtn" onclick="location.href='../write/${boardCode}?mode=insert&cp=${pagination.currentPage}'">글쓰기</button>                     
                 </c:if>
 
             </div>

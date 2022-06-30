@@ -23,7 +23,7 @@
             let url = pathname.substring(0,  pathname.indexOf("/", 1)); // 
             //   /community
 
-            url += "/board/list?";  //   /community/board/list?
+            url += "/board/list/" + boardCode + "?";  //   /board/list/1?cp=1
 
 
             // URL 내장 객체 : 주소 관련 정보를 나타내는 객체
@@ -33,8 +33,6 @@
             // http://localhost:8080/community/board/detail?no=249&cp=6&type=1&key=c&query=9
             const params = new URL(location.href).searchParams;
 
-            const type =  "type=" + params.get("type"); //    type=1
-           
             let cp;
 
             if(params.get("cp") != null){ // 쿼리스트링에 cp가 있을 경우
@@ -46,7 +44,7 @@
 
             // 조립
             //   /community/board/list?type=1&cp=1
-            url += type + "&" + cp;
+            url += cp;
 
 
             // 검색 key, query가 존재하는 경우 url에 추가
