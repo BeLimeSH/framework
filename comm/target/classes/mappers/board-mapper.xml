@@ -185,6 +185,118 @@
 	</insert>
 	
 	
+	<!-- 게시글 수정 -->
+	<update id="updateBoard">
+	UPDATE BOARD SET
+		BOARD_TITLE = #{boardTitle},
+		BOARD_CONTENT = #{boardContent},
+		UPDATE_DT = SYSDATE
+	WHERE BOARD_NO = #{boardNo}
+	</update>
+	
+	<!-- 게시글 이미지 삭제 -->
+	<delete id="deleteBoardImage">
+	DELETE FROM BOARD_IMG 
+    WHERE BOARD_NO = ${boardNo} 
+    AND IMG_LEVEL IN ( ${deleteList} )
+	</delete>
+	
+	<!-- 게시글 이미지 1개 수정 -->
+	<update id="updateBoardImage">
+	UPDATE BOARD_IMG SET
+		IMG_RENAME = #{imageReName},
+		IMG_ORIGINAL = #{imageOriginal}
+	WHERE BOARD_NO = #{boardNo}
+	AND IMG_LEVEL = #{imageLevel}
+	</update>
+	
+	<!-- 게시글 이미지 1개 삽입 -->
+	<insert id="insertBoardImage">
+	INSERT INTO BOARD_IMG VALUES(
+		SEQ_IMG_NO.NEXTVAL, #{imageReName}, #{imageOriginal}, #{imageLevel}, #{boardNo}
+	)
+	</insert>
+	
+	<!-- 게시글 삭제 -->
+	<update id="deleteBoard">
+	UPDATE BOARD SET BOARD_ST = 'Y'
+    WHERE BOARD_NO = #{boardNo}
+	</update>
+	
+	<!-- 검색 게시글 목록 전체 개수 조회 -->
+	<select id="searchListCount" resultType="_int">
+	SELECT COUNT(*) FROM BOARD
+	JOIN MEMBER_S USING(MEMBER_NO)
+	WHERE BOARD_CD = ${boardCode}
+	AND BOARD_ST = 'N'
+	
+	<if test='query != null and query != ""'>
+		AND 
+	
+		<choose>
+			<when test='key == "t"'>
+				BOARD_TITLE LIKE '%${query}%'			
+			</when>
+		
+			<when test='key == "c"'>
+				BOARD_CONTENT LIKE '%${query}%'			
+			</when>
+		
+			<when test='key == "tc"'>
+				(BOARD_TITLE LIKE '%${query}%' OR BOARD_CONTENT LIKE '%${query}%')			
+			</when>
+		
+			<when test='key == "w"'>
+				MEMBER_NICK LIKE '%${query}%'			
+			</when>
+		
+		</choose>
+	</if>
+	
+	</select>
+	
+	<select id="searchBoardList" resultMap="board_rm">
+	SELECT BOARD_NO, BOARD_TITLE, MEMBER_NICK, READ_COUNT,
+     	CASE WHEN SYSDATE - CREATE_DT &lt; 1
+            THEN TO_CHAR(CREATE_DT, 'HH:MI')
+            ELSE TO_CHAR(CREATE_DT, 'YYYY-MM-DD')
+        END CREATE_DT, 
+        
+        (SELECT IMG_RENAME FROM BOARD_IMG 
+        WHERE BOARD.BOARD_NO = BOARD_IMG.BOARD_NO
+        AND IMG_LEVEL = 0) THUMBNAIL
+        
+    FROM BOARD
+    JOIN BOARD_TYPE USING(BOARD_CD)
+    JOIN MEMBER_S USING(MEMBER_NO)
+    WHERE BOARD_ST = 'N'
+    AND BOARD_CD = ${boardCode}
+    
+   	<if test='query != null and query != ""'>
+		AND 
+	
+		<choose>
+			<when test='key == "t"'>
+				BOARD_TITLE LIKE '%${query}%'			
+			</when>
+		
+			<when test='key == "c"'>
+				BOARD_CONTENT LIKE '%${query}%'			
+			</when>
+		
+			<when test='key == "tc"'>
+				(BOARD_TITLE LIKE '%${query}%' OR BOARD_CONTENT LIKE '%${query}%')			
+			</when>
+		
+			<when test='key == "w"'>
+				MEMBER_NICK LIKE '%${query}%'			
+			</when>
+		
+		</choose>
+	</if>
+    
+    ORDER BY BOARD_NO DESC
+	</select>
 	
 
 </mapper>
