@@ -133,8 +133,9 @@
                         <c:set var="cp" value="${param.cp}" />
                     </c:if>
 
-
-                    <button id="updateBtn" onclick="location.href='write?mode=update&type=${param.type}&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
+                                                            <%-- ../../write/${boardCode} --%>
+                                                            <%-- ${contextPath}/board/write/${boardCode} --%>
+                    <button id="updateBtn" onclick="location.href='../../write/${boardCode}?mode=update&cp=${cp}&no=${detail.boardNo}'">수정</button>                       
                     <button id="deleteBtn">삭제</button>
                 </c:if>
 
@@ -155,9 +156,6 @@
 
     <!-- jQuery 추가 -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-    <script src="${contextPath}/resources/js/board/board.js"></script>
-
 
     <script>
         // 댓글 관련 JS 코드에 필요한 값을 전역 변수로 선언
@@ -180,11 +178,12 @@
         // -> 로그인 O  : "10";
         // -> 로그인 X  : "";  (빈문자열)
 
+        const boardCode = "${boardCode}"; //게시판 번호
+
     </script>
 
+    <script src="${contextPath}/resources/js/board/board.js"></script>
     <script src="${contextPath}/resources/js/board/reply.js"></script>
-
-
 
 </body>
 </html>

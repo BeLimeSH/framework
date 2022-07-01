@@ -77,6 +77,8 @@
 	-->
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	
+	<!-- proxy-target-class="true" -->
+	
 	<!-- aop auto proxy -->
 	<aop:aspectj-autoproxy/>
 	
