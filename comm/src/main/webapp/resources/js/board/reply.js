@@ -25,6 +25,9 @@ function selectReplyList(){
                 const replyRow = document.createElement("li");
                 replyRow.classList.add("reply-row");
 
+                //답글일 경우 child-reply 클래스 추가
+                if(reply.parentReplyNo != 0)    replyRow.classList.add("child-reply");
+
 
                 // 작성자
                 const replyWriter = document.createElement("p");
@@ -63,37 +66,47 @@ function selectReplyList(){
                 // 행에 작성자, 내용 추가
                 replyRow.append(replyWriter, replyContent);
 
-                // 로그인한 회원번호와 댓글 작성자의 회원번호가 같을 때만 버튼 추가
-                if( loginMemberNo == reply.memberNo   ){
-
+                //로그인이 되어 있는 경우 답글 버튼 추가
+                if(loginMemberNo != "") {
                     // 버튼 영역
                     const replyBtnArea = document.createElement("div");
                     replyBtnArea.classList.add("reply-btn-area");
 
-                    // 수정 버튼
-                    const updateBtn = document.createElement("button");
-                    updateBtn.innerText = "수정";
+                    //답글 버튼
+                    const childReplyBtn = document.createElement("button");
+                    childReplyBtn.setAttribute("onclick", "showInsertReply("+ reply.replyNo +", this)");
 
-                    // 수정 버튼에 onclick 이벤트 속성 추가
-                    updateBtn.setAttribute("onclick", "showUpdateReply("+reply.replyNo+", this)");                        
+                    childReplyBtn.innerText = "답글";
 
+                    //버튼 영역에 답글 버튼 추가
+                    replyBtnArea.append(childReplyBtn);
 
-                    // 삭제 버튼
-                    const deleteBtn = document.createElement("button");
-                    deleteBtn.innerText = "삭제";
-                    // 삭제 버튼에 onclick 이벤트 속성 추가
-                    deleteBtn.setAttribute("onclick", "deleteReply("+reply.replyNo+")");                       
-
-
-                    // 버튼 영역 마지막 자식으로 수정/삭제 버튼 추가
-                    replyBtnArea.append(updateBtn, deleteBtn);
+                    // 로그인한 회원번호와 댓글 작성자의 회원번호가 같을 때만 버튼 추가
+                    if( loginMemberNo == reply.memberNo ){
+    
+                        // 수정 버튼
+                        const updateBtn = document.createElement("button");
+                        updateBtn.innerText = "수정";
+    
+                        // 수정 버튼에 onclick 이벤트 속성 추가
+                        updateBtn.setAttribute("onclick", "showUpdateReply("+reply.replyNo+", this)");                        
+    
+    
+                        // 삭제 버튼
+                        const deleteBtn = document.createElement("button");
+                        deleteBtn.innerText = "삭제";
+                        // 삭제 버튼에 onclick 이벤트 속성 추가
+                        deleteBtn.setAttribute("onclick", "deleteReply("+reply.replyNo+")");                       
+    
+    
+                        // 버튼 영역 마지막 자식으로 수정/삭제 버튼 추가
+                        replyBtnArea.append(updateBtn, deleteBtn);
+                        
+                    } // if 끝
 
                     // 행에 버튼영역 추가
                     replyRow.append(replyBtnArea); 
-
-                } // if 끝
-
-
+                }
                 // 댓글 목록(ul)에 행(li)추가
                 replyList.append(replyRow);
             }
