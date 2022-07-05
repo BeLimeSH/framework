@@ -75,4 +75,10 @@ public interface BoardService {
 	 */
 	Map<String, Object> searchBoardList(Map<String, Object> paramMap);
 
+	/**
+	 * BOARD_IMG 이미지 목록 조회
+	 * @return dbList
+	 */
+	List<String> selectDBList();
+
 }
