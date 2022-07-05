@@ -32,7 +32,19 @@
 	
 	<!-- 댓글 등록 -->
 	<insert id="insertReply">
-	INSERT INTO REPLY_S VALUES(SEQ_REPLY_NO_S.NEXTVAL, #{replyContent}, DEFAULT, DEFAULT, #{memberNo}, #{boardNo}, NULL)
+	INSERT INTO REPLY_S VALUES(SEQ_REPLY_NO_S.NEXTVAL, #{replyContent}, DEFAULT, DEFAULT, #{memberNo}, #{boardNo},
+	
+		<!-- 일반 댓글인 경우 -->
+		<if test="parentReplyNo == 0">
+			 NULL
+		</if>
+
+		<!-- 답글일 경우 -->
+		<if test="parentReplyNo != 0">
+			#{parentReplyNo}		
+		</if>
+		
+	 )
 	</insert>
 	
 	<!-- 댓글 삭제 -->
