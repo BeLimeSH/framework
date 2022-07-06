@@ -1,107 +1,275 @@
-2022-07-05 11:32:02 [INFO] 초기화 필터 생성
-2022-07-05 11:32:12 [INFO] 로그인 기능 수행됨
-2022-07-05 11:32:12 [DEBUG] pass02! / $2a$10$DzJGFvTBG./x5gzNbe/6z..HK9B6qbi154hMwNv6zSOSI490aN0BO
-2022-07-05 11:51:09 [INFO] 초기화 필터 생성
-2022-07-05 11:51:11 [INFO] 5초마다 출력
-2022-07-05 11:51:16 [INFO] 5초마다 출력
-2022-07-05 11:51:21 [INFO] 5초마다 출력
-2022-07-05 11:51:26 [INFO] 5초마다 출력
-2022-07-05 11:51:31 [INFO] 5초마다 출력
-2022-07-05 11:51:36 [INFO] 5초마다 출력
-2022-07-05 11:51:41 [INFO] 5초마다 출력
-2022-07-05 11:51:46 [INFO] 5초마다 출력
-2022-07-05 11:51:51 [INFO] 5초마다 출력
-2022-07-05 11:51:56 [INFO] 5초마다 출력
-2022-07-05 11:52:01 [INFO] 5초마다 출력
-2022-07-05 11:52:02 [INFO] 초기화 필터 파괴
-2022-07-05 12:13:43 [INFO] 초기화 필터 생성
-2022-07-05 12:14:00 [INFO] 5초마다 출력
-2022-07-05 12:15:00 [INFO] 5초마다 출력
-2022-07-05 12:47:01 [INFO] 초기화 필터 생성
-2022-07-05 14:11:48 [INFO] 초기화 필터 생성
-2022-07-05 14:11:54 [DEBUG] 20220630150301_45781.jpg
-2022-07-05 14:11:54 [DEBUG] 20220630150301_53187.jpg
-2022-07-05 14:11:54 [DEBUG] 20220630150301_88489.jpg
-2022-07-05 14:11:54 [DEBUG] 20220630150940_21184.jpg
-2022-07-05 14:11:54 [DEBUG] 20220630150940_41142.webp
-2022-07-05 14:11:54 [DEBUG] 20220701114834_23294.webp
-2022-07-05 14:11:54 [DEBUG] 20220701114834_40820.jpg
-2022-07-05 14:11:54 [DEBUG] 20220701114926_24697.webp
-2022-07-05 14:11:54 [DEBUG] 20220701114926_43142.jpg
-2022-07-05 14:11:54 [DEBUG] 20220701114926_53432.jpg
-2022-07-05 14:11:54 [DEBUG] 20220701114926_68707.jpg
-2022-07-05 14:11:54 [DEBUG] 20220701114926_76618.jpg
-2022-07-05 14:11:54 [DEBUG] 20220701123744_16873.jpg
-2022-07-05 14:11:54 [DEBUG] 20220701123744_62848.webp
-2022-07-05 14:11:54 [DEBUG] sample1.jpg
-2022-07-05 14:11:54 [DEBUG] sample2.jpg
-2022-07-05 14:11:54 [DEBUG] sample3.jpg
-2022-07-05 14:11:54 [DEBUG] sample4.jpg
-2022-07-05 14:11:54 [DEBUG] sample5.jpg
-2022-07-05 14:12:04 [DEBUG] 20220630150301_45781.jpg
-2022-07-05 14:12:04 [DEBUG] 20220630150301_53187.jpg
-2022-07-05 14:12:04 [DEBUG] 20220630150301_88489.jpg
-2022-07-05 14:12:04 [DEBUG] 20220630150940_21184.jpg
-2022-07-05 14:12:04 [DEBUG] 20220630150940_41142.webp
-2022-07-05 14:12:04 [DEBUG] 20220701114834_23294.webp
-2022-07-05 14:12:04 [DEBUG] 20220701114834_40820.jpg
-2022-07-05 14:12:04 [DEBUG] 20220701114926_24697.webp
-2022-07-05 14:12:04 [DEBUG] 20220701114926_43142.jpg
-2022-07-05 14:12:04 [DEBUG] 20220701114926_53432.jpg
-2022-07-05 14:12:04 [DEBUG] 20220701114926_68707.jpg
-2022-07-05 14:12:04 [DEBUG] 20220701114926_76618.jpg
-2022-07-05 14:12:04 [DEBUG] 20220701123744_16873.jpg
-2022-07-05 14:12:04 [DEBUG] 20220701123744_62848.webp
-2022-07-05 14:12:04 [DEBUG] sample1.jpg
-2022-07-05 14:12:04 [DEBUG] sample2.jpg
-2022-07-05 14:12:04 [DEBUG] sample3.jpg
-2022-07-05 14:12:04 [DEBUG] sample4.jpg
-2022-07-05 14:12:04 [DEBUG] sample5.jpg
-2022-07-05 14:12:14 [DEBUG] 20220630150301_45781.jpg
-2022-07-05 14:12:14 [DEBUG] 20220630150301_53187.jpg
-2022-07-05 14:12:14 [DEBUG] 20220630150301_88489.jpg
-2022-07-05 14:12:14 [DEBUG] 20220630150940_21184.jpg
-2022-07-05 14:12:14 [DEBUG] 20220630150940_41142.webp
-2022-07-05 14:12:14 [DEBUG] 20220701114834_23294.webp
-2022-07-05 14:12:14 [DEBUG] 20220701114834_40820.jpg
-2022-07-05 14:12:14 [DEBUG] 20220701114926_24697.webp
-2022-07-05 14:12:14 [DEBUG] 20220701114926_43142.jpg
-2022-07-05 14:12:14 [DEBUG] 20220701114926_53432.jpg
-2022-07-05 14:12:14 [DEBUG] 20220701114926_68707.jpg
-2022-07-05 14:12:14 [DEBUG] 20220701114926_76618.jpg
-2022-07-05 14:12:14 [DEBUG] 20220701123744_16873.jpg
-2022-07-05 14:12:14 [DEBUG] 20220701123744_62848.webp
-2022-07-05 14:12:14 [DEBUG] sample1.jpg
-2022-07-05 14:12:14 [DEBUG] sample2.jpg
-2022-07-05 14:12:14 [DEBUG] sample3.jpg
-2022-07-05 14:12:14 [DEBUG] sample4.jpg
-2022-07-05 14:12:14 [DEBUG] sample5.jpg
-2022-07-05 14:12:18 [INFO] 초기화 필터 파괴
-2022-07-05 14:22:18 [INFO] 초기화 필터 생성
-2022-07-05 14:22:23 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:22:33 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:22:43 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:22:53 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:23:03 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:23:13 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:23:23 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:23:33 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:23:37 [INFO] 로그인 기능 수행됨
-2022-07-05 14:23:37 [DEBUG] pass02! / $2a$10$txaYSKM.o.IxvqnbmIiPXu1lZGP.GYlT4QD0tijEzi.N4o2s/lkGq
-2022-07-05 14:23:43 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:23:53 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:24:03 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:24:13 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:24:23 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:24:33 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:24:43 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:24:53 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:25:03 [INFO] 20220705142412_22385.webp삭제
-2022-07-05 14:25:03 [INFO] 20220705142412_74600.jpg삭제
-2022-07-05 14:25:03 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:25:13 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:25:23 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:25:33 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:25:43 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:25:53 [INFO] ---------- 서버 이미지 삭제 완료 ----------
-2022-07-05 14:26:00 [INFO] 초기화 필터 파괴
+2022-07-06 10:26:57 [INFO] 초기화 필터 생성
+2022-07-06 10:27:05 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:27:11 [INFO] 로그인 기능 수행됨
+2022-07-06 10:27:11 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:27:11 [DEBUG] pass02! / $2a$10$OCVpBDufL9VS62EvcNE/DefkXOGXs/eiLYiVr6IMR3yvhIWtVO5/O
+2022-07-06 10:27:11 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:28:02 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:28:07 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:29:07 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:31:00 [INFO] 초기화 필터 생성
+2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:31:41 [INFO] 초기화 필터 생성
+2022-07-06 10:31:48 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:31:48 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:39:12 [INFO] 초기화 필터 생성
+2022-07-06 10:39:20 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:39:20 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:40:20 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:40:20 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:41:20 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:41:20 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:41:26 [INFO] 초기화 필터 파괴
+2022-07-06 10:41:32 [INFO] 초기화 필터 생성
+2022-07-06 10:41:39 [INFO] 초기화 필터 파괴
+2022-07-06 10:46:34 [INFO] 초기화 필터 생성
+2022-07-06 10:47:32 [INFO] 초기화 필터 생성
+2022-07-06 10:47:36 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:47:38 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:47:38 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:47:38 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:47:41 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:47:41 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:47:43 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:47:43 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:47:43 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:47:43 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:47:43 [INFO] -------------------------- Service Start -----------------------
+2022-07-06 10:47:43 [INFO] -------------------------- Service End -----------------------
+2022-07-06 10:48:14 [INFO] 초기화 필터 파괴
+2022-07-06 11:19:48 [INFO] 초기화 필터 생성
+2022-07-06 11:19:53 [INFO] --------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+
+2022-07-06 11:19:55 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:20:34 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:20:55 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:21:34 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:21:55 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:22:34 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:22:55 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:23:14 [INFO] --------------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 1]
+
+2022-07-06 11:23:34 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:24:34 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:25:34 [INFO] --------------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+
+2022-07-06 11:39:21 [INFO] 초기화 필터 생성
+2022-07-06 11:39:26 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2022-07-06 11:39:29 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1
+2022-07-06 11:39:50 [INFO] 로그인 기능 수행됨
+2022-07-06 11:39:50 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 0:0:0:0:0:0:0:1
+2022-07-06 11:39:50 [DEBUG] pass02! / $2a$10$qwBUC.7C39ikB/lUOQ/V2euwko9B/Jr48akqk8H8pXhyaQ.jT7Huu
+2022-07-06 11:39:50 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 0:0:0:0:0:0:0:1 (email : test02@naver.com) 
+2022-07-06 11:42:55 [INFO] 초기화 필터 생성
+2022-07-06 11:42:58 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 11:42:59 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 11:43:01 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 11:43:02 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 11:43:51 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 11:44:02 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 11:44:51 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:07:38 [INFO] 초기화 필터 생성
+2022-07-06 12:07:43 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:07:45 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-06 12:07:45 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:07:45 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:08:46 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:08:46 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:09:37 [INFO] 초기화 필터 파괴
+2022-07-06 12:15:55 [INFO] 초기화 필터 생성
+2022-07-06 12:17:36 [INFO] 초기화 필터 생성
+2022-07-06 12:17:41 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:17:43 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@5c915bc7, edu.kh.comm.board.model.vo.BoardType@492b2e6f, edu.kh.comm.board.model.vo.BoardType@1e5bfa27]
+2022-07-06 12:17:43 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-06 12:17:43 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:17:43 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-06 12:17:43 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:17:50 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:17:50 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-06 12:17:50 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:18:06 [INFO] 초기화 필터 파괴
+2022-07-06 12:26:17 [INFO] 초기화 필터 생성
+2022-07-06 12:26:22 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:26:24 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@200e61ca, edu.kh.comm.board.model.vo.BoardType@66b1d0f, edu.kh.comm.board.model.vo.BoardType@1f2e72fb]
+2022-07-06 12:26:24 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-06 12:26:24 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:26:25 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK  FROM MEMBER_S  WHERE SECESSION_FL = 'N'  ORDER BY MEMBER_NO ;
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+
+2022-07-06 12:26:25 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:26:43 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:26:43 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK  FROM MEMBER_S  WHERE SECESSION_FL = 'N'  ORDER BY MEMBER_NO ;
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+
+2022-07-06 12:26:43 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:26:59 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:26:59 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+### The error may exist in /mappers/member-mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK  FROM MEMBER_S  WHERE SECESSION_FL = 'N'  ORDER BY MEMBER_NO ;
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
+
+
+2022-07-06 12:26:59 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:45:27 [INFO] 초기화 필터 생성
+2022-07-06 12:45:33 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:45:35 [INFO] Running Time : 2270ms
+2022-07-06 12:45:35 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@a60ee0f, edu.kh.comm.board.model.vo.BoardType@46a1339d, edu.kh.comm.board.model.vo.BoardType@5031ca33]
+2022-07-06 12:45:35 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-06 12:45:35 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-06 12:45:35 [INFO] Running Time : 11ms
+2022-07-06 12:45:35 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-06 12:45:35 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-06 12:46:03 [INFO] 초기화 필터 파괴

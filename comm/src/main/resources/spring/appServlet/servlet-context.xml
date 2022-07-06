@@ -79,10 +79,24 @@
 	-->
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	
-	<!-- proxy-target-class="true" -->
-	
 	<!-- aop auto proxy -->
-	<aop:aspectj-autoproxy/>
+	<aop:aspectj-autoproxy proxy-target-class="false"/>
+
+	<!-- 
+		proxy-target-class : 프록시가 적용될 클래스가 
+		
+		인터페이스면 : false -> SpringAOP는 기본적으로 인터페이스를 상속받은 프록시가 생성되어 코드를 수행함.
+		일반 클래스면 : true -> cglib 라이브러리를 이용해서 일반 클래스를 상속 받아 프록시 생성.
+		
+		스프링 요청/응답 흐름
+		
+		요청 -> Filter -> DispatcherServlet -> Interceptor -> Controller -> AOP -> Service -> DAO
+						  (HandlerMapping)													   |
+																							   DB				
+																 							   |
+		응답 <- Filter <- DispatcherServlet <- Interceptor <- Controller <- AOP <- Service <- DAO
+						  (ViewResolver)
+	 -->
 	
 	<!-- @Scheduled 어노테이션 인식을 위한 태그 -->
 	<task:annotation-driven/>
