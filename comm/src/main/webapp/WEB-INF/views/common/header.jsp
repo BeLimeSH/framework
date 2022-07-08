@@ -70,7 +70,7 @@
         	<li><a href="${contextPath}/board/list/${boardType.boardCode}">${boardType.boardName}</a></li>
 		</c:forEach>
 
-        <li><a href="#">FAQ</a></li>
+        <li><a href="${contextPath}/chat/roomList">채팅</a></li>
         <li><a href="#">1:1문의</a></li>
     </ul>
 </nav>

@@ -1,275 +1,1022 @@
-2022-07-06 10:26:57 [INFO] 초기화 필터 생성
-2022-07-06 10:27:05 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:27:11 [INFO] 로그인 기능 수행됨
-2022-07-06 10:27:11 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:27:11 [DEBUG] pass02! / $2a$10$OCVpBDufL9VS62EvcNE/DefkXOGXs/eiLYiVr6IMR3yvhIWtVO5/O
-2022-07-06 10:27:11 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:28:02 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:28:07 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:29:07 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:31:00 [INFO] 초기화 필터 생성
-2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:31:07 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:31:41 [INFO] 초기화 필터 생성
-2022-07-06 10:31:48 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:31:48 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:39:12 [INFO] 초기화 필터 생성
-2022-07-06 10:39:20 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:39:20 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:40:20 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:40:20 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:41:20 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:41:20 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:41:26 [INFO] 초기화 필터 파괴
-2022-07-06 10:41:32 [INFO] 초기화 필터 생성
-2022-07-06 10:41:39 [INFO] 초기화 필터 파괴
-2022-07-06 10:46:34 [INFO] 초기화 필터 생성
-2022-07-06 10:47:32 [INFO] 초기화 필터 생성
-2022-07-06 10:47:36 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:47:38 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:47:38 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:47:38 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:47:41 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:47:41 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:47:43 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:47:43 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:47:43 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:47:43 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:47:43 [INFO] -------------------------- Service Start -----------------------
-2022-07-06 10:47:43 [INFO] -------------------------- Service End -----------------------
-2022-07-06 10:48:14 [INFO] 초기화 필터 파괴
-2022-07-06 11:19:48 [INFO] 초기화 필터 생성
-2022-07-06 11:19:53 [INFO] --------------------------------------------------------------
+2022-07-07 09:43:42 [INFO] 초기화 필터 생성
+2022-07-07 09:43:48 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
+ip : 127.0.0.1
+2022-07-07 09:43:50 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@2b737464, edu.kh.comm.board.model.vo.BoardType@31dbab7a, edu.kh.comm.board.model.vo.BoardType@4e95ffb0]
+2022-07-07 09:43:50 [INFO] Running Time : 2412ms
+2022-07-07 09:43:50 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
 
-2022-07-06 11:19:55 [INFO] --------------------------------------------------------------
+2022-07-07 09:43:51 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
+ip : 127.0.0.1
+2022-07-07 09:43:51 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 09:43:51 [INFO] Running Time : 18ms
+2022-07-07 09:43:51 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
 
-2022-07-06 11:20:34 [INFO] --------------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-
-2022-07-06 11:20:55 [INFO] --------------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-
-2022-07-06 11:21:34 [INFO] --------------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-
-2022-07-06 11:21:55 [INFO] --------------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-
-2022-07-06 11:22:34 [INFO] --------------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-
-2022-07-06 11:22:55 [INFO] --------------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-
-2022-07-06 11:23:14 [INFO] --------------------------------------------------------------
+2022-07-07 09:43:58 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardList
 Parameter : [1, 1]
+ip : 127.0.0.1
+2022-07-07 09:43:58 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=501, limit=10, pageSize=10, maxPage=51, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@572d59e2, edu.kh.comm.board.model.vo.Board@69c0e545, edu.kh.comm.board.model.vo.Board@74cc3ca6, edu.kh.comm.board.model.vo.Board@4693eca9, edu.kh.comm.board.model.vo.Board@7bcc5fd0, edu.kh.comm.board.model.vo.Board@15487721, edu.kh.comm.board.model.vo.Board@f45022, edu.kh.comm.board.model.vo.Board@595b1231, edu.kh.comm.board.model.vo.Board@4070e415, edu.kh.comm.board.model.vo.Board@16d77245]}
+2022-07-07 09:43:58 [INFO] Running Time : 125ms
+2022-07-07 09:43:58 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------
 
-2022-07-06 11:23:34 [INFO] --------------------------------------------------------------
+2022-07-07 09:45:01 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
+ip : 127.0.0.1
+2022-07-07 09:45:01 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 09:45:01 [INFO] Running Time : 20ms
+2022-07-07 09:45:01 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
 
-2022-07-06 11:24:34 [INFO] --------------------------------------------------------------
+2022-07-07 09:46:01 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
+ip : 127.0.0.1
+2022-07-07 09:46:01 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 09:46:01 [INFO] Running Time : 9ms
+2022-07-07 09:46:01 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
 
-2022-07-06 11:25:34 [INFO] --------------------------------------------------------------
+2022-07-07 09:47:01 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
+ip : 127.0.0.1
+2022-07-07 09:47:01 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 09:47:01 [INFO] Running Time : 18ms
+2022-07-07 09:47:01 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
 
-2022-07-06 11:39:21 [INFO] 초기화 필터 생성
-2022-07-06 11:39:26 [INFO] -------------------------------------------------------
+2022-07-07 09:48:01 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 09:48:01 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 09:48:01 [INFO] Running Time : 8ms
+2022-07-07 09:48:01 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 09:48:23 [INFO] 초기화 필터 파괴
+2022-07-07 10:12:13 [INFO] 초기화 필터 생성
+2022-07-07 10:12:18 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
-ip : 0:0:0:0:0:0:0:1
-2022-07-06 11:39:29 [INFO] -------------------------------------------------------
+ip : 127.0.0.1
+2022-07-07 10:12:20 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@341b957e, edu.kh.comm.board.model.vo.BoardType@707208d9, edu.kh.comm.board.model.vo.BoardType@4d2a0809]
+2022-07-07 10:12:20 [INFO] Running Time : 2151ms
+2022-07-07 10:12:20 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-07 10:12:22 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
-ip : 0:0:0:0:0:0:0:1
-2022-07-06 11:39:50 [INFO] 로그인 기능 수행됨
-2022-07-06 11:39:50 [INFO] -------------------------------------------------------
+ip : 127.0.0.1
+2022-07-07 10:12:22 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:12:22 [INFO] Running Time : 9ms
+2022-07-07 10:12:22 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:12:30 [INFO] 로그인 기능 수행됨
+2022-07-07 10:12:30 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - login
 Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
-ip : 0:0:0:0:0:0:0:1
-2022-07-06 11:39:50 [DEBUG] pass02! / $2a$10$qwBUC.7C39ikB/lUOQ/V2euwko9B/Jr48akqk8H8pXhyaQ.jT7Huu
-2022-07-06 11:39:50 [INFO] -------------------------------------------------------
+ip : 127.0.0.1
+2022-07-07 10:12:30 [DEBUG] pass02! / $2a$10$1TEt9z./fvCTby23Ic9D8.phFTP1K2GnmGClzAukMJ6SD8F/rE.ze
+2022-07-07 10:12:30 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 10:12:30 [INFO] Running Time : 255ms
+2022-07-07 10:12:30 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 10:12:30 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
-ip : 0:0:0:0:0:0:0:1 (email : test02@naver.com) 
-2022-07-06 11:42:55 [INFO] 초기화 필터 생성
-2022-07-06 11:42:58 [INFO] -------------------------------------------------------
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:12:30 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:12:30 [INFO] Running Time : 11ms
+2022-07-07 10:12:30 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:12:33 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:12:33 [INFO] Return Value : []
+2022-07-07 10:12:33 [INFO] Running Time : 20ms
+2022-07-07 10:12:33 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 10:12:46 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - openChatRoom
+Parameter : [ChatRoom(chatRoomNo=0, title=테스트 채팅, status=null, memberNo=2, memberNickname=null, cnt=0)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:12:46 [INFO] Return Value : 1
+2022-07-07 10:12:46 [INFO] Running Time : 34ms
+2022-07-07 10:12:46 [INFO] End : ChatServiceImpl - openChatRoom
+-------------------------------------------------------
+
+2022-07-07 10:12:46 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=1)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:12:46 [INFO] Return Value : []
+2022-07-07 10:12:46 [INFO] Running Time : 27ms
+2022-07-07 10:12:46 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 10:13:00 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:13:00 [INFO] Return Value : [ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 10:13:00 [INFO] Running Time : 14ms
+2022-07-07 10:13:00 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 10:13:00 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:13:00 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:13:00 [INFO] Running Time : 15ms
+2022-07-07 10:13:00 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:13:03 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=1)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:13:03 [INFO] Return Value : []
+2022-07-07 10:13:03 [INFO] Running Time : 18ms
+2022-07-07 10:13:03 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 10:13:04 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:13:04 [INFO] Return Value : [ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 10:13:04 [INFO] Running Time : 15ms
+2022-07-07 10:13:04 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 10:14:02 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:14:02 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:14:02 [INFO] Running Time : 17ms
+2022-07-07 10:14:02 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:15:03 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:15:03 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:15:03 [INFO] Running Time : 17ms
+2022-07-07 10:15:03 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:16:04 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:16:04 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:16:04 [INFO] Running Time : 7ms
+2022-07-07 10:16:04 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:17:05 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:17:05 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:17:05 [INFO] Running Time : 15ms
+2022-07-07 10:17:05 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:17:45 [INFO] 초기화 필터 파괴
+2022-07-07 10:30:10 [INFO] 초기화 필터 생성
+2022-07-07 10:30:16 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 11:42:59 [INFO] -------------------------------------------------------
+2022-07-07 10:30:18 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@6ca214c8, edu.kh.comm.board.model.vo.BoardType@1959ca79, edu.kh.comm.board.model.vo.BoardType@11052d70]
+2022-07-07 10:30:18 [INFO] Running Time : 2673ms
+2022-07-07 10:30:18 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-07 10:30:19 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 10:30:19 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:30:19 [INFO] Running Time : 14ms
+2022-07-07 10:30:19 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:30:24 [INFO] 로그인 기능 수행됨
+2022-07-07 10:30:24 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass03!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 10:30:24 [DEBUG] pass03! / $2a$10$cy2qqEGipnigZ7WNOrseq.pDxmM9MzETLbyyK3xLWA54BZMa7GxXG
+2022-07-07 10:30:24 [INFO] Return Value : null
+2022-07-07 10:30:24 [INFO] Running Time : 255ms
+2022-07-07 10:30:24 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 10:30:25 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 10:30:25 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:30:25 [INFO] Running Time : 15ms
+2022-07-07 10:30:25 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:30:31 [INFO] 로그인 기능 수행됨
+2022-07-07 10:30:31 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 10:30:31 [DEBUG] pass02! / $2a$10$MDR3WnUAD83.jqvF9.Y7w.RlIkpfy5AM0ED.CVJ87RJJKvq2vEDNq
+2022-07-07 10:30:31 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 10:30:31 [INFO] Running Time : 168ms
+2022-07-07 10:30:31 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 10:30:31 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:30:31 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 10:30:31 [INFO] Running Time : 12ms
+2022-07-07 10:30:31 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 10:30:33 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:30:33 [INFO] Return Value : [ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 10:30:33 [INFO] Running Time : 13ms
+2022-07-07 10:30:33 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 10:30:43 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - openChatRoom
+Parameter : [ChatRoom(chatRoomNo=0, title=cocococ, status=null, memberNo=2, memberNickname=null, cnt=0)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:30:43 [INFO] Return Value : 2
+2022-07-07 10:30:43 [INFO] Running Time : 23ms
+2022-07-07 10:30:43 [INFO] End : ChatServiceImpl - openChatRoom
+-------------------------------------------------------
+
+2022-07-07 10:30:43 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:30:43 [INFO] Return Value : []
+2022-07-07 10:30:43 [INFO] Running Time : 20ms
+2022-07-07 10:30:43 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 10:46:05 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 10:46:05 [INFO] Return Value : []
+2022-07-07 10:46:05 [INFO] Running Time : 25ms
+2022-07-07 10:46:05 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 10:59:59 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectDBList
+Parameter : []
+[스케쥴러 동작]
+2022-07-07 10:59:59 [INFO] Return Value : [/resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample3.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20220701114834_40820.jpg, /resources/images/board/20220701114834_23294.webp, /resources/images/board/20220701114926_53432.jpg, /resources/images/board/20220701114926_43142.jpg, /resources/images/board/20220701114926_76618.jpg, /resources/images/board/20220701114926_68707.jpg, /resources/images/board/20220701114926_24697.webp, /resources/images/board/20220607154330_03502.jpg, /resources/images/board/sample3.jpg, /resources/images/board/20220607154330_11764.jpg, /resources/images/board/sample4.jpg, /resources/images/board/sample1.jpg, /resources/images/board/sample2.jpg, /resources/images/board/sample5.jpg, /resources/images/board/20220630150301_88489.jpg, /resources/images/board/20220630150301_53187.jpg, /resources/images/board/20220630150301_45781.jpg, /resources/images/board/20220630150940_41142.webp, /resources/images/board/20220630150940_21184.jpg, /resources/images/board/20220701123744_62848.webp, /resources/images/board/20220701123744_16873.jpg, /resources/images/board/20220705142500_93542.jpg]
+2022-07-07 10:59:59 [INFO] Running Time : 26ms
+2022-07-07 10:59:59 [INFO] End : BoardServiceImpl - selectDBList
+-------------------------------------------------------
+
+2022-07-07 10:59:59 [INFO] ---------- 서버 이미지 삭제 완료 ----------
+2022-07-07 11:38:27 [INFO] 초기화 필터 생성
+2022-07-07 11:38:33 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 11:43:01 [INFO] -------------------------------------------------------
+2022-07-07 11:38:35 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@5c0a9fe9, edu.kh.comm.board.model.vo.BoardType@6fb83f4c, edu.kh.comm.board.model.vo.BoardType@72d32a25]
+2022-07-07 11:38:35 [INFO] Running Time : 2272ms
+2022-07-07 11:38:35 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-07 11:38:36 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 11:43:02 [INFO] -------------------------------------------------------
+2022-07-07 11:38:36 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 11:38:36 [INFO] Running Time : 16ms
+2022-07-07 11:38:36 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 11:38:44 [INFO] 로그인 기능 수행됨
+2022-07-07 11:38:44 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 11:38:44 [DEBUG] pass02! / $2a$10$zPAw/xT3BIGpoISAV6tSMezUu6F02U70wKuE/9TKqNPLOa/93kftW
+2022-07-07 11:38:44 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 11:38:44 [INFO] Running Time : 260ms
+2022-07-07 11:38:44 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 11:38:44 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
-ip : 127.0.0.1
-2022-07-06 11:43:51 [INFO] -------------------------------------------------------
-Start : MemberServiceImpl - selectAll
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 11:38:44 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 11:38:44 [INFO] Running Time : 13ms
+2022-07-07 11:38:44 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 11:38:46 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
 Parameter : []
-ip : 127.0.0.1
-2022-07-06 11:44:02 [INFO] -------------------------------------------------------
-Start : MemberServiceImpl - selectAll
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 11:38:46 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 11:38:46 [INFO] Running Time : 13ms
+2022-07-07 11:38:46 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 11:38:48 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 11:38:48 [INFO] Return Value : []
+2022-07-07 11:38:48 [INFO] Running Time : 27ms
+2022-07-07 11:38:48 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 11:41:36 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardList
+Parameter : [1, 2]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 11:41:36 [INFO] Return Value : {pagination=Pagination [currentPage=1, listCount=501, limit=10, pageSize=10, maxPage=51, startPage=1, endPage=10, prevPage=1, nextPage=11], boardList=[edu.kh.comm.board.model.vo.Board@7fb61220, edu.kh.comm.board.model.vo.Board@115ea764, edu.kh.comm.board.model.vo.Board@41a0dee6, edu.kh.comm.board.model.vo.Board@2d2b7924, edu.kh.comm.board.model.vo.Board@62c359b3, edu.kh.comm.board.model.vo.Board@6c2b708, edu.kh.comm.board.model.vo.Board@41d20ed8, edu.kh.comm.board.model.vo.Board@37c6bd9f, edu.kh.comm.board.model.vo.Board@4fb06415, edu.kh.comm.board.model.vo.Board@5cd9f01c]}
+2022-07-07 11:41:36 [INFO] Running Time : 86ms
+2022-07-07 11:41:36 [INFO] End : BoardServiceImpl - selectBoardList
+-------------------------------------------------------
+
+2022-07-07 11:41:55 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
 Parameter : []
-ip : 127.0.0.1
-2022-07-06 11:44:51 [INFO] -------------------------------------------------------
-Start : MemberServiceImpl - selectAll
-Parameter : []
-ip : 127.0.0.1
-2022-07-06 12:07:38 [INFO] 초기화 필터 생성
-2022-07-06 12:07:43 [INFO] -------------------------------------------------------
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 11:41:55 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 11:41:55 [INFO] Running Time : 14ms
+2022-07-07 11:41:55 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 11:41:57 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=1)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 11:41:57 [INFO] Return Value : []
+2022-07-07 11:41:57 [INFO] Running Time : 20ms
+2022-07-07 11:41:57 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 11:43:39 [INFO] 초기화 필터 파괴
+2022-07-07 12:12:23 [INFO] 초기화 필터 생성
+2022-07-07 12:12:28 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:07:45 [INFO] End : BoardServiceImpl - selectBoardType
+2022-07-07 12:12:31 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@3848bad6, edu.kh.comm.board.model.vo.BoardType@196c91d5, edu.kh.comm.board.model.vo.BoardType@45b5ad2]
+2022-07-07 12:12:31 [INFO] Running Time : 2494ms
+2022-07-07 12:12:31 [INFO] End : BoardServiceImpl - selectBoardType
 -------------------------------------------------------
 
-2022-07-06 12:07:45 [INFO] -------------------------------------------------------
+2022-07-07 12:12:31 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:07:45 [INFO] End : MemberServiceImpl - selectAll
+2022-07-07 12:12:31 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 12:12:31 [INFO] Running Time : 11ms
+2022-07-07 12:12:31 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:08:46 [INFO] -------------------------------------------------------
+2022-07-07 12:12:36 [INFO] 로그인 기능 수행됨
+2022-07-07 12:12:36 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 12:12:36 [DEBUG] pass02! / $2a$10$tyqC//fQH/R8OXAbwenzzOZrDBh9SG9W6Iw1TupMDjzIDQmQItfc2
+2022-07-07 12:12:36 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 12:12:36 [INFO] Running Time : 185ms
+2022-07-07 12:12:36 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 12:12:36 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
-ip : 127.0.0.1
-2022-07-06 12:08:46 [INFO] End : MemberServiceImpl - selectAll
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 12:12:36 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 12:12:36 [INFO] Running Time : 11ms
+2022-07-07 12:12:36 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:09:37 [INFO] 초기화 필터 파괴
-2022-07-06 12:15:55 [INFO] 초기화 필터 생성
-2022-07-06 12:17:36 [INFO] 초기화 필터 생성
-2022-07-06 12:17:41 [INFO] -------------------------------------------------------
+2022-07-07 12:12:38 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 12:12:38 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 12:12:38 [INFO] Running Time : 13ms
+2022-07-07 12:12:38 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 12:12:40 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 12:12:40 [INFO] Return Value : []
+2022-07-07 12:12:40 [INFO] Running Time : 29ms
+2022-07-07 12:12:40 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 12:24:24 [INFO] 초기화 필터 파괴
+2022-07-07 12:42:18 [INFO] 초기화 필터 생성
+2022-07-07 12:42:23 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:17:43 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@5c915bc7, edu.kh.comm.board.model.vo.BoardType@492b2e6f, edu.kh.comm.board.model.vo.BoardType@1e5bfa27]
-2022-07-06 12:17:43 [INFO] End : BoardServiceImpl - selectBoardType
+2022-07-07 12:42:25 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@1b4c759c, edu.kh.comm.board.model.vo.BoardType@1623487d, edu.kh.comm.board.model.vo.BoardType@5e637c4c]
+2022-07-07 12:42:25 [INFO] Running Time : 2318ms
+2022-07-07 12:42:25 [INFO] End : BoardServiceImpl - selectBoardType
 -------------------------------------------------------
 
-2022-07-06 12:17:43 [INFO] -------------------------------------------------------
+2022-07-07 12:42:26 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:17:43 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
-2022-07-06 12:17:43 [INFO] End : MemberServiceImpl - selectAll
+2022-07-07 12:42:26 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 12:42:26 [INFO] Running Time : 15ms
+2022-07-07 12:42:26 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:17:50 [INFO] -------------------------------------------------------
+2022-07-07 12:42:50 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:17:50 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
-2022-07-06 12:17:50 [INFO] End : MemberServiceImpl - selectAll
+2022-07-07 12:42:50 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 12:42:50 [INFO] Running Time : 14ms
+2022-07-07 12:42:50 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:18:06 [INFO] 초기화 필터 파괴
-2022-07-06 12:26:17 [INFO] 초기화 필터 생성
-2022-07-06 12:26:22 [INFO] -------------------------------------------------------
+2022-07-07 12:43:03 [INFO] 로그인 기능 수행됨
+2022-07-07 12:43:03 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 12:43:03 [DEBUG] pass02! / $2a$10$6TxvrasLOtoQvJBsFzwv2OUNy4l1IYqqnhChOFlBQAgoHUqoQdCa2
+2022-07-07 12:43:03 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 12:43:03 [INFO] Running Time : 208ms
+2022-07-07 12:43:03 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 12:43:03 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 12:43:03 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 12:43:03 [INFO] Running Time : 10ms
+2022-07-07 12:43:03 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 12:43:22 [INFO] 로그인 기능 수행됨
+2022-07-07 12:43:22 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test01@naver.com, memberPw=pass01!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 12:43:22 [DEBUG] pass01! / $2a$10$7vzwbp4p3hjmFlg5tiZR4e1d/BSLml9yVAo38d2FT.qlzCSTN3em.
+2022-07-07 12:43:22 [INFO] Return Value : Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=01012341234, memberAddress=null, profileImage=/resources/images/memberProfile/20220628112811_62524.jpg, enrollDate=2022-06-22 14:41:45, secessionFlag=null)
+2022-07-07 12:43:22 [INFO] Running Time : 243ms
+2022-07-07 12:43:22 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 12:43:22 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test01@naver.com) 
+2022-07-07 12:43:22 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 12:43:22 [INFO] Running Time : 18ms
+2022-07-07 12:43:22 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 12:43:24 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test01@naver.com) 
+2022-07-07 12:43:24 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 12:43:24 [INFO] Running Time : 13ms
+2022-07-07 12:43:24 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 12:43:26 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=1, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test01@naver.com) 
+2022-07-07 12:43:26 [INFO] Return Value : []
+2022-07-07 12:43:26 [INFO] Running Time : 31ms
+2022-07-07 12:43:26 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 12:43:28 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 12:43:28 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 12:43:28 [INFO] Running Time : 16ms
+2022-07-07 12:43:28 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 12:43:29 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 12:43:29 [INFO] Return Value : []
+2022-07-07 12:43:29 [INFO] Running Time : 17ms
+2022-07-07 12:43:29 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 12:43:51 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=코코, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 12:43:51 [INFO] Return Value : 1
+2022-07-07 12:43:51 [INFO] Running Time : 10ms
+2022-07-07 12:43:51 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 12:44:00 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=코코로코, createDate=null, chatRoomNo=2, memberNo=1, memberEmail=test01@naver.com, memberNickname=테스트1)]
+[스케쥴러 동작]
+2022-07-07 12:44:00 [INFO] Return Value : 1
+2022-07-07 12:44:00 [INFO] Running Time : 6ms
+2022-07-07 12:44:00 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 12:44:13 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=홀리몰리, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 12:44:13 [INFO] Return Value : 1
+2022-07-07 12:44:13 [INFO] Running Time : 8ms
+2022-07-07 12:44:13 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 12:44:18 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=몰몰몰, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 12:44:18 [INFO] Return Value : 1
+2022-07-07 12:44:18 [INFO] Running Time : 8ms
+2022-07-07 12:44:18 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 12:49:16 [INFO] 초기화 필터 파괴
+2022-07-07 14:05:57 [INFO] 초기화 필터 생성
+2022-07-07 14:06:02 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:26:24 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@200e61ca, edu.kh.comm.board.model.vo.BoardType@66b1d0f, edu.kh.comm.board.model.vo.BoardType@1f2e72fb]
-2022-07-06 12:26:24 [INFO] End : BoardServiceImpl - selectBoardType
+2022-07-07 14:06:05 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@7d1ed09f, edu.kh.comm.board.model.vo.BoardType@5d68043c, edu.kh.comm.board.model.vo.BoardType@7873538d]
+2022-07-07 14:06:05 [INFO] Running Time : 2823ms
+2022-07-07 14:06:05 [INFO] End : BoardServiceImpl - selectBoardType
 -------------------------------------------------------
 
-2022-07-06 12:26:24 [INFO] -------------------------------------------------------
+2022-07-07 14:06:06 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:26:25 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-### The error may exist in /mappers/member-mapper.xml
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK  FROM MEMBER_S  WHERE SECESSION_FL = 'N'  ORDER BY MEMBER_NO ;
-### Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-
-2022-07-06 12:26:25 [INFO] End : MemberServiceImpl - selectAll
+2022-07-07 14:06:06 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:06:06 [INFO] Running Time : 13ms
+2022-07-07 14:06:06 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:26:43 [INFO] -------------------------------------------------------
+2022-07-07 14:06:10 [INFO] 로그인 기능 수행됨
+2022-07-07 14:06:10 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 14:06:10 [DEBUG] pass02! / $2a$10$DkwwATaErotYKF9glzlc9eYuwwJv2klbwjmGtJVYSdyq798cmZEPK
+2022-07-07 14:06:10 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 14:06:10 [INFO] Running Time : 276ms
+2022-07-07 14:06:10 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 14:06:11 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
-ip : 127.0.0.1
-2022-07-06 12:26:43 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-### The error may exist in /mappers/member-mapper.xml
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK  FROM MEMBER_S  WHERE SECESSION_FL = 'N'  ORDER BY MEMBER_NO ;
-### Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-
-2022-07-06 12:26:43 [INFO] End : MemberServiceImpl - selectAll
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:06:11 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:06:11 [INFO] Running Time : 19ms
+2022-07-07 14:06:11 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:26:59 [INFO] -------------------------------------------------------
-Start : MemberServiceImpl - selectAll
+2022-07-07 14:06:12 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
 Parameter : []
-ip : 127.0.0.1
-2022-07-06 12:26:59 [ERROR] <<exception>> : org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:93) - 
-### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-### The error may exist in /mappers/member-mapper.xml
-### The error may involve defaultParameterMap
-### The error occurred while setting parameters
-### SQL: SELECT MEMBER_NO, MEMBER_EMAIL, MEMBER_NICK  FROM MEMBER_S  WHERE SECESSION_FL = 'N'  ORDER BY MEMBER_NO ;
-### Cause: java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00911: invalid character
-
-
-2022-07-06 12:26:59 [INFO] End : MemberServiceImpl - selectAll
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:06:12 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 14:06:12 [INFO] Running Time : 13ms
+2022-07-07 14:06:12 [INFO] End : ChatServiceImpl - selectChatRoomList
 -------------------------------------------------------
 
-2022-07-06 12:45:27 [INFO] 초기화 필터 생성
-2022-07-06 12:45:33 [INFO] -------------------------------------------------------
+2022-07-07 14:06:13 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:06:13 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:06:13 [INFO] Running Time : 41ms
+2022-07-07 14:06:13 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:08:51 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:08:51 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:08:51 [INFO] Running Time : 27ms
+2022-07-07 14:08:51 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:13:35 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:13:35 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:13:35 [INFO] Running Time : 19ms
+2022-07-07 14:13:35 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:25:35 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:25:35 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 14:25:35 [INFO] Running Time : 16ms
+2022-07-07 14:25:35 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 14:26:10 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:26:10 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:26:10 [INFO] Running Time : 34ms
+2022-07-07 14:26:10 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:26:46 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:26:46 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:26:46 [INFO] Running Time : 14ms
+2022-07-07 14:26:46 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:27:39 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=coxld, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:27:39 [INFO] Return Value : 1
+2022-07-07 14:27:39 [INFO] Running Time : 10ms
+2022-07-07 14:27:39 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:27:50 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=채팅채팅, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:27:50 [INFO] Return Value : 1
+2022-07-07 14:27:50 [INFO] Running Time : 8ms
+2022-07-07 14:27:50 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:27:57 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=왜쥐, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:27:57 [INFO] Return Value : 1
+2022-07-07 14:27:57 [INFO] Running Time : 6ms
+2022-07-07 14:27:57 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:28:02 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=내려가랏, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:28:02 [INFO] Return Value : 1
+2022-07-07 14:28:02 [INFO] Running Time : 6ms
+2022-07-07 14:28:02 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:28:07 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:28:07 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=coxld, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=채팅채팅, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=왜쥐, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=내려가랏, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:28:07 [INFO] Running Time : 31ms
+2022-07-07 14:28:07 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:28:18 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=안냥, createDate=null, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:28:18 [INFO] Return Value : 1
+2022-07-07 14:28:18 [INFO] Running Time : 6ms
+2022-07-07 14:28:18 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:32:51 [INFO] 초기화 필터 생성
+2022-07-07 14:32:57 [INFO] -------------------------------------------------------
 Start : BoardServiceImpl - selectBoardType
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:45:35 [INFO] Running Time : 2270ms
-2022-07-06 12:45:35 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@a60ee0f, edu.kh.comm.board.model.vo.BoardType@46a1339d, edu.kh.comm.board.model.vo.BoardType@5031ca33]
-2022-07-06 12:45:35 [INFO] End : BoardServiceImpl - selectBoardType
+2022-07-07 14:32:59 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@782c54d1, edu.kh.comm.board.model.vo.BoardType@6f9df89d, edu.kh.comm.board.model.vo.BoardType@50944a9c]
+2022-07-07 14:32:59 [INFO] Running Time : 2287ms
+2022-07-07 14:32:59 [INFO] End : BoardServiceImpl - selectBoardType
 -------------------------------------------------------
 
-2022-07-06 12:45:35 [INFO] -------------------------------------------------------
+2022-07-07 14:33:00 [INFO] -------------------------------------------------------
 Start : MemberServiceImpl - selectAll
 Parameter : []
 ip : 127.0.0.1
-2022-07-06 12:45:35 [INFO] Running Time : 11ms
-2022-07-06 12:45:35 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
-2022-07-06 12:45:35 [INFO] End : MemberServiceImpl - selectAll
+2022-07-07 14:33:00 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:33:00 [INFO] Running Time : 12ms
+2022-07-07 14:33:00 [INFO] End : MemberServiceImpl - selectAll
 -------------------------------------------------------
 
-2022-07-06 12:46:03 [INFO] 초기화 필터 파괴
+2022-07-07 14:33:02 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 14:33:02 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 14:33:02 [INFO] Running Time : 9ms
+2022-07-07 14:33:02 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 14:33:09 [INFO] 로그인 기능 수행됨
+2022-07-07 14:33:09 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 14:33:09 [DEBUG] pass02! / $2a$10$fVsuEl7ud6.s3AhFBdRPs.WpJGKrc7Z/hO75FWolzFzSN63zRbRh.
+2022-07-07 14:33:09 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 14:33:09 [INFO] Running Time : 206ms
+2022-07-07 14:33:09 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 14:33:10 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:33:10 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:33:10 [INFO] Running Time : 9ms
+2022-07-07 14:33:10 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 14:33:11 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:33:11 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 14:33:11 [INFO] Running Time : 18ms
+2022-07-07 14:33:11 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 14:33:13 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:33:13 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=coxld, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=채팅채팅, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=왜쥐, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=내려가랏, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=안냥, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:33:13 [INFO] Running Time : 33ms
+2022-07-07 14:33:13 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:33:18 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=dksskdk, createDate=2022-07-07, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:33:18 [INFO] Return Value : 1
+2022-07-07 14:33:18 [INFO] Running Time : 11ms
+2022-07-07 14:33:18 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:35:01 [INFO] 초기화 필터 생성
+2022-07-07 14:35:07 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 14:35:09 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@d7d23c2, edu.kh.comm.board.model.vo.BoardType@e08d318, edu.kh.comm.board.model.vo.BoardType@1fb11f33]
+2022-07-07 14:35:09 [INFO] Running Time : 2487ms
+2022-07-07 14:35:09 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-07 14:35:10 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 14:35:10 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:35:10 [INFO] Running Time : 12ms
+2022-07-07 14:35:10 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 14:35:22 [INFO] 로그인 기능 수행됨
+2022-07-07 14:35:22 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 14:35:22 [DEBUG] pass02! / $2a$10$UtYGmGm.uF0Rw15MRMlHfu.8V7rylnKnm9xb0VnSY8rHBdcLQJfgu
+2022-07-07 14:35:22 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 14:35:22 [INFO] Running Time : 242ms
+2022-07-07 14:35:22 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 14:35:22 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:35:22 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:35:22 [INFO] Running Time : 10ms
+2022-07-07 14:35:22 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 14:35:24 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:35:24 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 14:35:24 [INFO] Running Time : 15ms
+2022-07-07 14:35:24 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 14:35:26 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:35:26 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=coxld, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=채팅채팅, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=왜쥐, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=내려가랏, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=안냥, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=dksskdk, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:35:26 [INFO] Running Time : 32ms
+2022-07-07 14:35:26 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:35:31 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=ㅋㅋ, createDate=2022-07-07, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:35:31 [INFO] Return Value : 1
+2022-07-07 14:35:31 [INFO] Running Time : 11ms
+2022-07-07 14:35:31 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:35:42 [INFO] 초기화 필터 파괴
+2022-07-07 14:42:06 [INFO] 초기화 필터 생성
+2022-07-07 14:42:11 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 14:42:14 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@57b92ab1, edu.kh.comm.board.model.vo.BoardType@2f11fbe3, edu.kh.comm.board.model.vo.BoardType@7c65a851]
+2022-07-07 14:42:14 [INFO] Running Time : 2399ms
+2022-07-07 14:42:14 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-07 14:42:14 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 14:42:14 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:42:14 [INFO] Running Time : 15ms
+2022-07-07 14:42:14 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 14:42:20 [INFO] 로그인 기능 수행됨
+2022-07-07 14:42:20 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - login
+Parameter : [Member(memberNo=0, memberEmail=test02@naver.com, memberPw=pass02!, memberNickname=null, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+ip : 127.0.0.1
+2022-07-07 14:42:21 [DEBUG] pass02! / $2a$10$wdZPy5ZyleieGQ.VbgKP3.pwsIxnIJGWyi2Stmb9Zyn49I7lwxMRG
+2022-07-07 14:42:21 [INFO] Return Value : Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=01022223333, memberAddress=13536,,경기 성남시 분당구 판교역로10번길 3,,하하하, profileImage=/resources/images/memberProfile/20220627111115_69946.jpg, enrollDate=2022-06-23 16:48:28, secessionFlag=null)
+2022-07-07 14:42:21 [INFO] Running Time : 226ms
+2022-07-07 14:42:21 [INFO] End : MemberServiceImpl - login
+-------------------------------------------------------
+
+2022-07-07 14:42:21 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:42:21 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 14:42:21 [INFO] Running Time : 12ms
+2022-07-07 14:42:21 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 14:42:21 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - selectChatRoomList
+Parameter : []
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:42:22 [INFO] Return Value : [ChatRoom(chatRoomNo=2, title=cocococ, status=null, memberNo=0, memberNickname=테스읏흐, cnt=2), ChatRoom(chatRoomNo=1, title=테스트 채팅, status=null, memberNo=0, memberNickname=테스읏흐, cnt=1)]
+2022-07-07 14:42:22 [INFO] Running Time : 15ms
+2022-07-07 14:42:22 [INFO] End : ChatServiceImpl - selectChatRoomList
+-------------------------------------------------------
+
+2022-07-07 14:42:23 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - joinChatRoom
+Parameter : [ChatRoomJoin(memberNo=2, chatRoomNo=2)]
+ip : 127.0.0.1 (email : test02@naver.com) 
+2022-07-07 14:42:23 [INFO] Return Value : [ChatMessage(cmNo=0, message=코코, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=코코로코, createDate=2022-07-07, chatRoomNo=0, memberNo=1, memberEmail=null, memberNickname=테스트1), ChatMessage(cmNo=0, message=홀리몰리, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=몰몰몰, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=coxld, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=채팅채팅, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=왜쥐, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=내려가랏, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=안냥, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=dksskdk, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐), ChatMessage(cmNo=0, message=ㅋㅋ, createDate=2022-07-07, chatRoomNo=0, memberNo=2, memberEmail=null, memberNickname=테스읏흐)]
+2022-07-07 14:42:23 [INFO] Running Time : 38ms
+2022-07-07 14:42:23 [INFO] End : ChatServiceImpl - joinChatRoom
+-------------------------------------------------------
+
+2022-07-07 14:42:30 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=<p style="color:yellow">Hi</b>, createDate=2022-07-07, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:42:30 [INFO] Return Value : 1
+2022-07-07 14:42:30 [INFO] Running Time : 11ms
+2022-07-07 14:42:30 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:44:28 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=<p style="font-family: fantasy;">폰트 font</p>, createDate=2022-07-07, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:44:28 [INFO] Return Value : 1
+2022-07-07 14:44:28 [INFO] Running Time : 9ms
+2022-07-07 14:44:28 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:44:38 [INFO] -------------------------------------------------------
+Start : ChatServiceImpl - insertMessage
+Parameter : [ChatMessage(cmNo=0, message=폰트 font, createDate=2022-07-07, chatRoomNo=2, memberNo=2, memberEmail=test02@naver.com, memberNickname=테스읏흐)]
+[스케쥴러 동작]
+2022-07-07 14:44:38 [INFO] Return Value : 1
+2022-07-07 14:44:38 [INFO] Running Time : 6ms
+2022-07-07 14:44:38 [INFO] End : ChatServiceImpl - insertMessage
+-------------------------------------------------------
+
+2022-07-07 14:49:24 [INFO] 초기화 필터 파괴
+2022-07-07 20:52:23 [INFO] 초기화 필터 생성
+2022-07-07 20:52:29 [INFO] -------------------------------------------------------
+Start : BoardServiceImpl - selectBoardType
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 20:52:31 [INFO] Return Value : [edu.kh.comm.board.model.vo.BoardType@67ceaf4, edu.kh.comm.board.model.vo.BoardType@6701e5e4, edu.kh.comm.board.model.vo.BoardType@7e0f8043]
+2022-07-07 20:52:31 [INFO] Running Time : 2276ms
+2022-07-07 20:52:31 [INFO] End : BoardServiceImpl - selectBoardType
+-------------------------------------------------------
+
+2022-07-07 20:52:33 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 20:52:33 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 20:52:33 [INFO] Running Time : 12ms
+2022-07-07 20:52:33 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 20:53:34 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 20:53:34 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 20:53:34 [INFO] Running Time : 21ms
+2022-07-07 20:53:34 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 20:54:01 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 20:54:01 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 20:54:01 [INFO] Running Time : 13ms
+2022-07-07 20:54:01 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+
+2022-07-07 20:54:52 [INFO] -------------------------------------------------------
+Start : MemberServiceImpl - selectAll
+Parameter : []
+ip : 127.0.0.1
+2022-07-07 20:54:52 [INFO] Return Value : [Member(memberNo=1, memberEmail=test01@naver.com, memberPw=null, memberNickname=테스트1, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=2, memberEmail=test02@naver.com, memberPw=null, memberNickname=테스읏흐, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=3, memberEmail=test03@naver.com, memberPw=null, memberNickname=테삼이, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null), Member(memberNo=4, memberEmail=test04@naver.com, memberPw=null, memberNickname=테사, memberTel=null, memberAddress=null, profileImage=null, enrollDate=null, secessionFlag=null)]
+2022-07-07 20:54:52 [INFO] Running Time : 15ms
+2022-07-07 20:54:52 [INFO] End : MemberServiceImpl - selectAll
+-------------------------------------------------------
+

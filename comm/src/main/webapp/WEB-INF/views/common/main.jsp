@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="resources/css/main-style.css">
 
     <script src="https://kit.fontawesome.com/a2e8ca0ae3.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1ef9913073.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
@@ -31,7 +33,7 @@
         <section class="content">
             <section class="content-1">
             	
-                <h3>회원 정보 조회(AJAX)</h3>
+                <h3>회원 정보 조회(AJAX) <i class="fa-solid fa-leafy-green" style="color:black;"></i></h3>
 
                 <p>이메일을 입력 받아 일치하는 회원 정보를 출력</p>
 
